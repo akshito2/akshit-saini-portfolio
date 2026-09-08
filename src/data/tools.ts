@@ -21,7 +21,7 @@ export const tools: Tool[] = [
   {
     id: 'tool-03',
     name: 'CapCut',
-    logo: '/assets/tools/capcut.svg',
+    logo: '/assets/tools/Capcut.svg',
     color: '#FF9457',
   },
   {
