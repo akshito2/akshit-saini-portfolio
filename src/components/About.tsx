@@ -47,7 +47,7 @@ export function About() {
 
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left — Image */}
-          <Reveal variant="left">
+          <Reveal variant="left" className="hidden lg:block">
             <div className="flex justify-center">
               <div
                 ref={imgRef}
@@ -72,7 +72,7 @@ export function About() {
           </Reveal>
 
           {/* Right — Content */}
-          <Reveal variant="right" delay={100}>
+          <Reveal variant="right" delay={100} className="text-center lg:text-left">
             <div>
               <h3 className="font-display text-2xl font-bold text-white sm:text-3xl">
                 {profile.name}
@@ -110,7 +110,7 @@ export function About() {
               </div>
 
               {/* Inline stats */}
-              <div className="mt-8 flex flex-wrap gap-6">
+              <div className="mt-8 flex flex-wrap gap-6 md:max-lg:justify-center">
                 <div>
                   <p className="font-display text-3xl font-extrabold text-white">2+</p>
                   <p className="text-xs text-ink-300">Years Experience</p>
