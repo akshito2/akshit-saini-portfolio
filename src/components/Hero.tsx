@@ -70,7 +70,7 @@ export function Hero() {
           </h2>
 
           {/* CTAs */}
-          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
+          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row md:justify-center lg:justify-start">
             <button
               onClick={() => scrollTo('#work')}
               className="group flex w-full items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-sm font-semibold text-ink-950 transition-all duration-300 hover:shadow-lg hover:shadow-accent/40 sm:w-auto"
